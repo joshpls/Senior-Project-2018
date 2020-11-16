@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backdrop"
+    tools:context=".ConfirmationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Confirmation List:"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorWhite"
+                android:paddingStart="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="8dp"
+                />
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:clipToPadding="true"
+                android:nestedScrollingEnabled="true"
+                android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/confirmLV">
+                </ListView>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Clear Contacts"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+</FrameLayout>

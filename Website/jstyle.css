@@ -1,0 +1,416 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+#konami {
+  background-color: #262626;
+  color: #ff471a;
+  width: 100%;
+  height: 100%;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.glyphicon {
+  font-size: 20px;
+}
+
+body {
+  background-color: #262626;
+  color: #adb7bd;
+}
+
+.hide {
+  position:absolute;
+  top:-1px;
+  left:-1px;
+  width:1px;
+  height:1px;
+}
+
+
+.cimr{
+  color: orange;
+}
+
+.error{
+  color:red;
+}
+
+.txt_orange{
+  font-family: 'Nunito', sans-serif;
+  color: orange;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+small{
+  font-weight:400;
+  font-size: 70%;
+  line-height:1;
+  color:#777;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* CUSTOM */
+.navbar-nav{
+  position:static;
+  float:none;
+  width:auto;
+  margin-top:0;
+  background-color:transparent;
+  border:0;
+  box-shadow:none;
+}
+
+.page-header {
+  font-family: 'Play', sans-serif;
+  padding-bottom:9px;
+  margin:40px 0 20px;
+  border-bottom:1px solid #eee;
+}
+
+.seperate {
+  font-family: 'Play', sans-serif;
+  padding-bottom:1px;
+  margin:2px 0 20px;
+  border-bottom:1px solid #eee;
+}
+
+.text {
+  font-family: 'Nunito', sans-serif;
+}
+
+.align-right {
+  float:right;
+}
+
+.align-center {
+  float:center;
+}
+
+/*  MySql table-layout: */
+.sqlTable {
+  font-family: 'Play', sans-serif;
+  margin: 1em 0;
+  min-width: 300px;
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.sqlTable tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-color: #46637f;
+}
+.sqlTable th, .sqlTable td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-color: #46637f;
+  text-align: left;
+}
+.sqlTable td {
+  color: black;
+}
+
+/*	Forum Layout	*/
+.form-style-4{
+    width: 450px;
+    font-size: 16px;
+    background: #495C70;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.form-style-4 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+
+/* JMenu */
+#jmenu {
+  font-family: 'Nunito', sans-serif;
+  float: left;
+  width: 280px;
+  border-top: 1px solid #adb7bd;
+  border-right: 1px solid #adb7bd;
+  border-left: 1px solid #adb7bd;
+}
+#jmenu li a {
+  font-family: 'Nunito', sans-serif;
+  display: block;
+  padding: 10px 15px;
+  background: #adb7bd;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #adb7bd;
+  text-decoration: none;
+  color: #262626;
+}
+#jmenu li a:hover, #jmenu li a.active {
+  font-family: 'Nunito', sans-serif;
+  background: orange;
+  color: #262626;
+}
+#jmenu li ul {
+  display: none; // used to hide sub-menus
+}
+#jmenu li ul li a {
+  font-family: 'Nunito', sans-serif;
+  padding: 10px 25px;
+  background: #fff;
+  border-bottom: 1px dotted #262626;
+}
+
+/*  JAVAMENU  */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/*  Slideshow */
+#slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+
+/*  DROPDOWN  */
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: orange;
+  color: #262626;
+  padding: 6px;
+  font-size: 6px;
+  border: 2px #adb7bd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  background-color: #777;
+  border: 2px #adb7bd;
+  border-radius: 5px;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #262626;
+  padding: 8px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #adb7bd;
+  border: 2px #adb7bd;
+  border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #adb7bd;
+  color: #262626;
+}
+
+/*  End - DROPDOWN  */
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table;}
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
+  width: 100%;
+}
+
+.span_7_of_8 {
+    width: 87.3%;
+}
+
+.span_6_of_8 {
+    width: 74.6%;
+}
+
+.span_5_of_8 {
+    width: 61.9%;
+}
+
+.span_4_of_8 {
+    width: 49.2%;
+}
+
+.span_3_of_8 {
+    width: 36.5%;
+}
+
+.span_2_of_8 {
+    width: 23.8%;
+}
+
+.span_1_of_8 {
+    width: 11.1%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+  .span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lets Meet</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="default_message">I would like to set up an appointment with your child for a parent teacher conference.
+        Follow the link provided and select a time:</string>
+    <string name="teacher_name">Emily Watson</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Nav Menu Strings -->
+    <string name="nav_message">Message</string>
+    <string name="nav_confirm">Confirmations</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_message"
+        android:icon="@drawable/ic_message_white_24dp"
+        android:id="@+id/nav_message" />
+    <item android:title="@string/nav_confirm"
+        android:icon="@drawable/ic_confirmation_number_white_24dp"
+        android:id="@+id/nav_confirm" />
+    <item android:title="@string/nav_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:id="@+id/nav_settings" />
+</menu>

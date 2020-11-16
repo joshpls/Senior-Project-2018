@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backdrop"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MessageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message:"
+            android:id="@+id/messageTV"
+            android:paddingStart="8dp"
+            android:textSize="18dp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:layout_gravity="top"
+            android:hint="Click to edit message"
+            android:id="@+id/messageET"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingStart="8dp"
+            android:textSize="18dp"
+            android:textStyle="normal|bold"
+            android:text="Contacts:"
+            android:id="@+id/contactsTV"
+            android:textColor="@color/colorPrimary" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".98"
+            android:fillViewport="true"
+            android:clipToPadding="true"
+            android:nestedScrollingEnabled="true"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ListView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contactsLV">
+                </ListView>
+                <ImageButton
+                    android:text="Send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/menu"
+                    android:id="@+id/contactsButton"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    app:srcCompat="@drawable/ic_person_add_white_24dp"
+                    android:elevation="10dp"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:text="Send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/btnSend"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/sendButton" />
+    </LinearLayout>
+
+</FrameLayout>

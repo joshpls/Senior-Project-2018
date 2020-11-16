@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262626</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#adb7bd</color>
+    <color name="colorAlt">#2c2d2d</color>
+    <color name="btnSend">#12c401</color>
+    <color name="errorMessage">#e00000</color>
+    <color name="btnLogout">#e00000</color>
+    <color name="menu">#ff8623</color>
+    <color name="altText">#ffffff</color>
+    <color name="backdrop">#d0d3d8</color>
+    <color name="fragment">#212121</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#80ffffff</color>
+</resources>
